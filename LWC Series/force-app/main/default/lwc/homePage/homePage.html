@@ -1,0 +1,64 @@
+<template>
+    <lightning-card title="Filter data" icon-name="standard:record_lookup">
+        <div class="slds-m-around_medium">
+            <div class="slds-form" role="list">
+                <div class="slds-form__row">
+                    <div class="slds-form__item" role="listitem">
+                    <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                        <label class="slds-form-element__label" for="single-form-element-id-02">Tên học sinh</label>
+                        <div class="slds-form-element__control">
+                        <input type="text" id="single-form-element-id-02"  class="slds-input" />
+                        </div>
+                    </div>
+                    </div>
+                    <div class="slds-form__item" role="listitem">
+                    <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                        <label class="slds-form-element__label" for="single-form-element-id-03">Lớp học</label>
+                        <div class="slds-form-element__control">
+                            <input type="text" id="single-form-element-id-03" placeholder="Placeholder Text" class="slds-input" />
+                        </div>
+                    </div>
+                   
+                </div>
+                </div>
+
+                <div class="slds-form__row">
+                    <div class="slds-form__item" role="listitem">
+                            <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                            <label class="slds-form-element__label" for="single-form-element-id-04">Ngày sinh</label>
+                            <div class="slds-form-element__control">
+                                <lightning-input type="date"></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-form__item" role="listitem">
+                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                            <label class="slds-form-element__label" for="single-form-element-id-04"></label>                        
+                            <div class="slds-form-element__control">
+                                <lightning-input type="date"></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="slds-form__row">
+                    <div class="slds-form__item" role="listitem">
+                        <div class="slds-form-element slds-form-element_horizontal slds-is-editing">
+                            <label class="slds-form-element__label" for="single-form-element-id-04">&nbsp;</label>
+                            <div class="slds-checkbox">
+                                <input type="checkbox" name="options" id="checkbox-86" value="checkbox-86" checked="" />
+                                <label class="slds-checkbox__label" for="checkbox-86">
+                                    <span class="slds-checkbox_faux"></span>
+                                    <span class="slds-form-element__label">Sắp xếp tăng dần theo tên</span>
+                                </label>
+                            </div>
+                            <div>
+                                <button class="slds-button slds-button_brand">Tìm kiếm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>
