@@ -1,2 +1,2 @@
-# salesforce-lwc-practives
-Serires Code Lightning Web Component Practive
+# salesforce-lwc-practices
+Serires Code Lightning Web Component Practice
